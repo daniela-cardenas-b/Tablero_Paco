@@ -13,19 +13,19 @@
 
     echo "<table border='2'>";
 
-    for ($i = 0; $i < $size; $i++) {
+    for ($i = 0; $i < $size; $i++) 
+    {
         echo "<tr>";
 
-    for ($j = 0; $j < $size; $j++) {
-        if ($i % 2 === $j % 2) {
-            echo "<td><img src= '../assets/blanco.png'></td>";
-        } else {
-            echo "<td><img src= '../assets/negro.png'></td>";
+        for ($j = 0; $j < $size; $j++) {
+            if ($i % 2 === $j % 2) {
+                echo "<td><img src= '../assets/blanco.png'></td>";
+            } else {
+                echo "<td><img src= '../assets/negro.png'></td>";
+            }
         }
-
         echo "</tr>";
     }
-
     echo "</table>";
 
     ?>
